@@ -1,0 +1,32 @@
+{
+  "name": "mcp-auto-build",
+  "author": "mangogogogoman",
+  "version": "1.0.0",
+  "description": "一个基于 Node.js 的前后端项目自动打包服务，支持 Maven（后端）和 npm（前端）项目的自动化打包。",
+  "main": "src/main/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/mcpServer.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mangogogogoman/mcp-auto-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mangogogogoman/mcp-auto-build/issues"
+  },
+  "homepage": "https://github.com/mangogogogoman/mcp-auto-build#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "adm-zip": "^0.5.17",
+    "ejs": "^3.1.10",
+    "sql.js": "^1.14.2",
+    "zod": "^3.25.76"
+  }
+}
